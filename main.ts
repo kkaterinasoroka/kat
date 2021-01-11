@@ -10,3 +10,9 @@ if (item3 % 0) {
     basic.showString("if sum is odd press 'B'")
 }
 
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    basic.showString("yes! sum is even")
+})
+input.onButtonPressed(Button.A, function on_button_pressed_a2() {
+    basic.showString("yes! sum is odd")
+})
