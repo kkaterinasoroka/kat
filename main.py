@@ -17,3 +17,4 @@ if item1 % 0:
 else:
     basic.show_string("29 is odd!!")"""
 #this sectioned out program doesn't stop the string until a button is pressed, try and fix.
+#I lost my code with the random integers:(
