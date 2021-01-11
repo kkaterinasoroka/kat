@@ -1,18 +1,19 @@
 //  math and memory game!!
-let item1 = randint(0, 20)
-let item2 = randint(0, 10)
-let item3 = item1 + item2
-basic.showNumber(item1)
-basic.showNumber(item2)
-if (item3 % 0) {
-    basic.showString("if sum is even press 'A'")
-} else {
-    basic.showString("if sum is odd press 'B'")
-}
-
+basic.showString("add the next two #s")
+basic.showNumber(16)
+basic.showNumber(23)
+basic.showString("if #: 28 press 'A'")
+basic.showString("if #: 29 press 'B'")
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    basic.showString("yes! sum is even")
+    basic.showString("incorrect:(")
 })
-input.onButtonPressed(Button.A, function on_button_pressed_a2() {
-    basic.showString("yes! sum is odd")
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    basic.showString("correct!")
 })
+/** item1 = 29
+basic.show_string("is the sum even or odd?")
+if item1 % 0:
+    basic.show_string("29 is not even")
+else:
+    basic.show_string("29 is odd!!")
+ */
